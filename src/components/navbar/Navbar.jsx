@@ -5,8 +5,6 @@ import styles from './navbar.module.css'
 import Image from 'next/image'
 import { motion, useScroll, useSpring } from 'framer-motion'
 
- 
-
 const Navbar = () => {
   const [hasScrolled, setHasScrolled] = useState(false); // State to track scrolling
 
@@ -91,7 +89,7 @@ const Navbar = () => {
       >
         <header className={styles.header}>
           <Link href='/'>
-            <Image src={hasScrolled ? '/GITLLOGO.svg' : '/godrejLogoWhite.png'} width='125' height='45' />
+            <Image src={hasScrolled ? '/GITLLOGO.svg' : '/godrejLogoWhite.png'} alt='godrej logo' width='125' height='45' />
           </Link>
           <nav>
             {links.map((link)=>{

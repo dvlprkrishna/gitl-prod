@@ -82,7 +82,7 @@ const Review = () => {
                         width={32}
                         height={32}
                         className={styles.reviewStar}
-                        alt="ratings"
+                        alt="ratings stars"
                       />
                     ))}
                   </div>
@@ -105,9 +105,11 @@ const Review = () => {
           <div className={styles.reviewCard}>
             <div className={styles.reviewCard2}>
               <div className={styles.imageOverlay}>
-                <img
-                  src="greatPlaceToWork.png"
+                <Image
+                  src="/greatPlaceToWork.png"
                   alt="Overlay"
+                  width={117}
+                  height={200}
                   className={styles.overlayImage}
                 />
               </div>

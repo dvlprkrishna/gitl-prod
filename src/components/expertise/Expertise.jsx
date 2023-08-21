@@ -1,20 +1,8 @@
 import styles from "./expertise.module.css";
-// import createGlobe from "cobe";
-import { useEffect, useRef } from "react";
-import { useSpring } from "react-spring";
-// import { globeConfig } from "../../utils/config.globe";
-// import { World } from "../../utils/globe";
+ 
 
 const Expertise = () => {
-  // useEffect(() => {
-  //   if (!document.getElementById("globe-canvas")) {
-  //     const container = document.querySelector("#scene-container");
-  //     const world = new World(container, undefined, globeConfig);
-  //     world.start();
-  //   }
-  //   // eslint-disable-next-line react-hooks/exhaustive-deps
-  // }, []);
-
+   
   return (
     <>
       <div

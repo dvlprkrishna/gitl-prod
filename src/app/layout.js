@@ -13,10 +13,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={worksans.className}>
         <Announcement />
-        
         {children}
         <Footer />
-
         <Copyright />
         <BackToUp className={`back-to-top`} style={{ zIndex: "9999" }}>
           <span>&#8593;</span>
