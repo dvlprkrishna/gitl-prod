@@ -9,7 +9,6 @@ import Review from '@/components/review/Review'
 import Robot from '@/components/robot/Robot'
 import Subscribe from '@/components/subscribe/Subscribe'
 import Testimonial from '@/components/testimonial/Testimonial'
-import Image from 'next/image'
 
 export default function Home() {
   return (
