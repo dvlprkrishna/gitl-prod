@@ -16,9 +16,7 @@ export default function RootLayout({ children }) {
         {children}
         <Footer />
         <Copyright />
-        <BackToUp className={`back-to-top`} style={{ zIndex: "9999" }}>
-          <span>&#8593;</span>
-        </BackToUp>
+         
       </body>
     </html>
   )
